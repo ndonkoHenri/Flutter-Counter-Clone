@@ -2,7 +2,7 @@ import flet as ft
 
 
 def main(page: ft.Page):
-    page.title = "Demo"
+    page.title = "Flet Counter App"
     page.theme_mode = "light"
 
     page.horizontal_alignment = "center"
