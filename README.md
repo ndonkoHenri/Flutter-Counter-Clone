@@ -9,4 +9,7 @@ Mimicking/Cloning the Flutter Counter with Flet.
 
 ### Made with Flet:
 
-![counter gif](https://user-images.githubusercontent.com/98978078/216826795-13e3dc81-52f9-4b85-b8dd-0897e2603a80.gif)
+<!-- ![counter gif](https://user-images.githubusercontent.com/98978078/216826795-13e3dc81-52f9-4b85-b8dd-0897e2603a80.gif) -->
+
+![counter gif](https://user-images.githubusercontent.com/98978078/217388830-55d30904-7bee-4b9d-a3b3-29ad22a95f82.gif)
+
