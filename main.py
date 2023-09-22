@@ -47,4 +47,4 @@ def main(page: ft.Page):
 
 
 # open a browser tab containing the app | remove the view parameter to open in a native OS window
-ft.app(target=main, view=ft.WEB_BROWSER)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
