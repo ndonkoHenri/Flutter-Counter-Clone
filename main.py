@@ -8,12 +8,9 @@ def main(page: ft.Page):
     # a light/bright theme
     page.theme_mode = "light"
 
-    # use material 2 design theme | this is just to better mimic the Flutter example
-    page.theme = ft.Theme(use_material3=False)
-
     # the page's alignment
-    page.horizontal_alignment = "center"
-    page.vertical_alignment = "center"
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
     def increment_counter(e):
         """Increment the value of the counter_text object by 1, and update the UI to reflect these changes."""
@@ -28,7 +25,7 @@ def main(page: ft.Page):
     )
 
     # text that contains the counter number to be incremented
-    counter_text = ft.Text("0", style=ft.TextThemeStyle.DISPLAY_MEDIUM)
+    counter_text = ft.Text("0", size=64)
 
     # the app's FAB
     page.floating_action_button = ft.FloatingActionButton(
@@ -46,5 +43,4 @@ def main(page: ft.Page):
     )
 
 
-# open a browser tab containing the app | remove the view parameter to open in a native OS window
-ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+ft.app(target=main)
