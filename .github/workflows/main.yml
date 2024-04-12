@@ -3,12 +3,12 @@ name: Web Build
 on:
   push:
     branches:
-      - main
+      - master
       - dev
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: macos-latest
 
     steps:
     - name: Checkout code
@@ -38,10 +38,5 @@ jobs:
       with:
         name: package
         path: |
-          build/
-          dist/
-          bin/
-          lib/
-          include/
-          src/
+          build/web
         if-no-files-found: error
