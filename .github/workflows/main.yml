@@ -1,9 +1,10 @@
-name: Python and Flutter Build
+name: Web Build
 
 on:
   push:
     branches:
       - main
+      - dev
 
 jobs:
   build:
